@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>320</width>
-    <height>305</height>
+    <width>720</width>
+    <height>720</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -18,14 +18,14 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>320</width>
-    <height>305</height>
+    <width>720</width>
+    <height>720</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>320</width>
-    <height>305</height>
+    <width>1280</width>
+    <height>720</height>
    </size>
   </property>
   <property name="palette">
@@ -172,16 +172,16 @@
    <widget class="QLabel" name="titulo_jogo">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>13</y>
-      <width>321</width>
+      <x>109</x>
+      <y>57</y>
+      <width>521</width>
       <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Montserrat Black</family>
-      <pointsize>16</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -190,7 +190,8 @@
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(255, 85, 127)</string>
+     <string notr="true">color: rgb(255, 85, 127);
+background-color: rgba(255, 255, 255, 0)</string>
     </property>
     <property name="text">
      <string>CENTRAL DE JOGOS</string>
@@ -202,10 +203,10 @@
    <widget class="QPushButton" name="botao_forca">
     <property name="geometry">
      <rect>
-      <x>53</x>
-      <y>96</y>
-      <width>51</width>
-      <height>51</height>
+      <x>180</x>
+      <y>260</y>
+      <width>120</width>
+      <height>111</height>
      </rect>
     </property>
     <property name="cursor">
@@ -226,9 +227,12 @@
     </property>
     <property name="iconSize">
      <size>
-      <width>79</width>
-      <height>55</height>
+      <width>120</width>
+      <height>120</height>
      </size>
+    </property>
+    <property name="autoRepeat">
+     <bool>false</bool>
     </property>
     <property name="autoDefault">
      <bool>false</bool>
@@ -243,16 +247,16 @@
    <widget class="QLabel" name="titulo_forca">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>94</y>
-      <width>151</width>
-      <height>21</height>
+      <x>319</x>
+      <y>270</y>
+      <width>191</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Montserrat ExtraBold</family>
-      <pointsize>10</pointsize>
+      <pointsize>14</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -272,10 +276,10 @@ background: rgb(255, 85, 127);
    <widget class="Line" name="linha">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>94</y>
+      <x>305</x>
+      <y>273</y>
       <width>1</width>
-      <height>57</height>
+      <height>90</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -288,16 +292,16 @@ background: rgb(255, 85, 127);
    <widget class="QLabel" name="descricao_forca">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>120</y>
-      <width>151</width>
-      <height>31</height>
+      <x>320</x>
+      <y>316</y>
+      <width>211</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Montserrat Medium</family>
-      <pointsize>8</pointsize>
+      <pointsize>22</pointsize>
      </font>
     </property>
     <property name="layoutDirection">
@@ -307,7 +311,7 @@ background: rgb(255, 85, 127);
      <string notr="true">color: white;</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:9pt; color:#ffffff;&quot;&gt;Acerte a palavra secreta&lt;br/&gt;e vença o jogo&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;Acerte a palavra secreta&lt;br/&gt;e vença o jogo&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -325,10 +329,10 @@ background: rgb(255, 85, 127);
    <widget class="QPushButton" name="botao_velha">
     <property name="geometry">
      <rect>
-      <x>53</x>
-      <y>202</y>
-      <width>51</width>
-      <height>51</height>
+      <x>189</x>
+      <y>410</y>
+      <width>101</width>
+      <height>111</height>
      </rect>
     </property>
     <property name="cursor">
@@ -349,8 +353,8 @@ background: rgb(255, 85, 127);
     </property>
     <property name="iconSize">
      <size>
-      <width>49</width>
-      <height>50</height>
+      <width>120</width>
+      <height>120</height>
      </size>
     </property>
     <property name="autoDefault">
@@ -366,16 +370,16 @@ background: rgb(255, 85, 127);
    <widget class="QLabel" name="descricao_velha">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>226</y>
-      <width>151</width>
-      <height>31</height>
+      <x>318</x>
+      <y>453</y>
+      <width>221</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Montserrat Medium</family>
-      <pointsize>8</pointsize>
+      <pointsize>22</pointsize>
      </font>
     </property>
     <property name="layoutDirection">
@@ -385,7 +389,7 @@ background: rgb(255, 85, 127);
      <string notr="true">color: white;</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:9pt; color:#ffffff;&quot;&gt;Acerte a uma sequência&lt;br/&gt;de três&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:12pt; color:#ffffff;&quot;&gt;Acerte a uma sequência&lt;br/&gt;de três&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -403,10 +407,10 @@ background: rgb(255, 85, 127);
    <widget class="Line" name="linha_2">
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>200</y>
+      <x>305</x>
+      <y>419</y>
       <width>1</width>
-      <height>57</height>
+      <height>90</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -419,16 +423,16 @@ background: rgb(255, 85, 127);
    <widget class="QLabel" name="titulo_velha">
     <property name="geometry">
      <rect>
-      <x>120</x>
-      <y>200</y>
-      <width>151</width>
-      <height>21</height>
+      <x>319</x>
+      <y>412</y>
+      <width>191</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Montserrat ExtraBold</family>
-      <pointsize>10</pointsize>
+      <pointsize>14</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -448,16 +452,16 @@ background: rgb(255, 85, 127);
    <widget class="QLabel" name="titulo_jogo_2">
     <property name="geometry">
      <rect>
-      <x>1</x>
-      <y>11</y>
-      <width>321</width>
-      <height>51</height>
+      <x>10</x>
+      <y>49</y>
+      <width>721</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Montserrat Black</family>
-      <pointsize>16</pointsize>
+      <pointsize>36</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -479,16 +483,16 @@ background-color: rgba(255, 255, 255, 0);</string>
    <widget class="QLabel" name="autor">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>0</y>
+      <x>200</x>
+      <y>18</y>
       <width>321</width>
-      <height>31</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
       <family>Montserrat ExtraBold</family>
-      <pointsize>7</pointsize>
+      <pointsize>10</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
