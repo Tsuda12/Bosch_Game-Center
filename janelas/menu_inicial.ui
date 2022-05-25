@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>720</width>
-    <height>720</height>
+    <width>500</width>
+    <height>500</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -18,14 +18,14 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>720</width>
-    <height>720</height>
+    <width>500</width>
+    <height>500</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>1280</width>
-    <height>720</height>
+    <width>500</width>
+    <height>500</height>
    </size>
   </property>
   <property name="palette">
@@ -172,8 +172,8 @@
    <widget class="QLabel" name="titulo_jogo">
     <property name="geometry">
      <rect>
-      <x>109</x>
-      <y>57</y>
+      <x>-11</x>
+      <y>47</y>
       <width>521</width>
       <height>51</height>
      </rect>
@@ -181,7 +181,7 @@
     <property name="font">
      <font>
       <family>Montserrat Black</family>
-      <pointsize>36</pointsize>
+      <pointsize>24</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -203,9 +203,9 @@ background-color: rgba(255, 255, 255, 0)</string>
    <widget class="QPushButton" name="botao_forca">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>260</y>
-      <width>120</width>
+      <x>80</x>
+      <y>158</y>
+      <width>101</width>
       <height>111</height>
      </rect>
     </property>
@@ -227,8 +227,8 @@ background-color: rgba(255, 255, 255, 0)</string>
     </property>
     <property name="iconSize">
      <size>
-      <width>120</width>
-      <height>120</height>
+      <width>100</width>
+      <height>100</height>
      </size>
     </property>
     <property name="autoRepeat">
@@ -247,8 +247,8 @@ background-color: rgba(255, 255, 255, 0)</string>
    <widget class="QLabel" name="titulo_forca">
     <property name="geometry">
      <rect>
-      <x>319</x>
-      <y>270</y>
+      <x>230</x>
+      <y>170</y>
       <width>191</width>
       <height>31</height>
      </rect>
@@ -276,8 +276,8 @@ background: rgb(255, 85, 127);
    <widget class="Line" name="linha">
     <property name="geometry">
      <rect>
-      <x>305</x>
-      <y>273</y>
+      <x>200</x>
+      <y>171</y>
       <width>1</width>
       <height>90</height>
      </rect>
@@ -292,8 +292,8 @@ background: rgb(255, 85, 127);
    <widget class="QLabel" name="descricao_forca">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>316</y>
+      <x>231</x>
+      <y>216</y>
       <width>211</width>
       <height>51</height>
      </rect>
@@ -329,9 +329,9 @@ background: rgb(255, 85, 127);
    <widget class="QPushButton" name="botao_velha">
     <property name="geometry">
      <rect>
-      <x>189</x>
-      <y>410</y>
-      <width>101</width>
+      <x>90</x>
+      <y>308</y>
+      <width>81</width>
       <height>111</height>
      </rect>
     </property>
@@ -353,8 +353,8 @@ background: rgb(255, 85, 127);
     </property>
     <property name="iconSize">
      <size>
-      <width>120</width>
-      <height>120</height>
+      <width>100</width>
+      <height>100</height>
      </size>
     </property>
     <property name="autoDefault">
@@ -370,8 +370,8 @@ background: rgb(255, 85, 127);
    <widget class="QLabel" name="descricao_velha">
     <property name="geometry">
      <rect>
-      <x>318</x>
-      <y>453</y>
+      <x>229</x>
+      <y>361</y>
       <width>221</width>
       <height>41</height>
      </rect>
@@ -407,8 +407,8 @@ background: rgb(255, 85, 127);
    <widget class="Line" name="linha_2">
     <property name="geometry">
      <rect>
-      <x>305</x>
-      <y>419</y>
+      <x>200</x>
+      <y>317</y>
       <width>1</width>
       <height>90</height>
      </rect>
@@ -423,8 +423,8 @@ background: rgb(255, 85, 127);
    <widget class="QLabel" name="titulo_velha">
     <property name="geometry">
      <rect>
-      <x>319</x>
-      <y>412</y>
+      <x>230</x>
+      <y>320</y>
       <width>191</width>
       <height>31</height>
      </rect>
@@ -452,8 +452,8 @@ background: rgb(255, 85, 127);
    <widget class="QLabel" name="titulo_jogo_2">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>49</y>
+      <x>-110</x>
+      <y>40</y>
       <width>721</width>
       <height>61</height>
      </rect>
@@ -461,7 +461,7 @@ background: rgb(255, 85, 127);
     <property name="font">
      <font>
       <family>Montserrat Black</family>
-      <pointsize>36</pointsize>
+      <pointsize>24</pointsize>
       <weight>75</weight>
       <bold>true</bold>
      </font>
@@ -483,8 +483,8 @@ background-color: rgba(255, 255, 255, 0);</string>
    <widget class="QLabel" name="autor">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>18</y>
+      <x>90</x>
+      <y>10</y>
       <width>321</width>
       <height>51</height>
      </rect>
