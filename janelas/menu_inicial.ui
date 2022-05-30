@@ -173,24 +173,26 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>50</y>
+      <y>90</y>
       <width>681</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Siemens AD CH Simplified</family>
-      <pointsize>18</pointsize>
+      <family>Montserrat Black</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(255, 255, 255);
+     <string notr="true">color: rgb(255, 85, 127);
 background-color: rgba(255, 255, 255, 0);
 </string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Felipe Tsuda&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;FELIPE TSUDA&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="textFormat">
      <enum>Qt::AutoText</enum>
@@ -202,21 +204,23 @@ background-color: rgba(255, 255, 255, 0);
    <widget class="QLabel" name="lbl_nome_2">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>90</y>
+      <x>15</x>
+      <y>20</y>
       <width>681</width>
-      <height>61</height>
+      <height>81</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Siemens AD CH Traditional</family>
-      <pointsize>48</pointsize>
+      <family>Montserrat Black</family>
+      <pointsize>26</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(0, 255, 255);
-background-color: rgba(255, 255, 255, 0);</string>
+     <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(0, 255, 255);</string>
     </property>
     <property name="text">
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CENTRAL JOGOS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -232,7 +236,7 @@ background-color: rgba(255, 255, 255, 0);</string>
     <property name="geometry">
      <rect>
       <x>182</x>
-      <y>220</y>
+      <y>210</y>
       <width>131</width>
       <height>151</height>
      </rect>
@@ -251,15 +255,17 @@ background-color: rgba(255, 255, 255, 0);</string>
     <property name="geometry">
      <rect>
       <x>342</x>
-      <y>230</y>
+      <y>220</y>
       <width>181</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Siemens AD CH Simplified</family>
-      <pointsize>20</pointsize>
+      <family>Montserrat</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -277,14 +283,14 @@ background-color: rgb(255, 85, 127);</string>
     <property name="geometry">
      <rect>
       <x>342</x>
-      <y>269</y>
-      <width>181</width>
+      <y>259</y>
+      <width>221</width>
       <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Siemens AD CH Simplified</family>
+      <family>Consolas</family>
       <pointsize>12</pointsize>
      </font>
     </property>
@@ -302,16 +308,21 @@ background-color: rgb(255, 85, 127);</string>
     <property name="geometry">
      <rect>
       <x>340</x>
-      <y>330</y>
+      <y>320</y>
       <width>91</width>
       <height>30</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Siemens AD CH Simplified</family>
-      <pointsize>12</pointsize>
+      <family>Montserrat</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(85, 255, 255);
@@ -325,14 +336,14 @@ color: black;</string>
     <property name="geometry">
      <rect>
       <x>340</x>
-      <y>499</y>
+      <y>489</y>
       <width>181</width>
       <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Siemens AD CH Simplified</family>
+      <family>Consolas</family>
       <pointsize>12</pointsize>
      </font>
     </property>
@@ -350,16 +361,21 @@ color: black;</string>
     <property name="geometry">
      <rect>
       <x>338</x>
-      <y>560</y>
+      <y>550</y>
       <width>91</width>
       <height>30</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Siemens AD CH Simplified</family>
-      <pointsize>12</pointsize>
+      <family>Montserrat</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(85, 255, 255);
@@ -373,15 +389,17 @@ color: black;</string>
     <property name="geometry">
      <rect>
       <x>340</x>
-      <y>460</y>
+      <y>450</y>
       <width>181</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Siemens AD CH Simplified</family>
-      <pointsize>20</pointsize>
+      <family>Montserrat</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -399,7 +417,7 @@ background-color: rgb(255, 85, 127);</string>
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>450</y>
+      <y>440</y>
       <width>131</width>
       <height>151</height>
      </rect>
@@ -414,46 +432,6 @@ background-color: rgb(255, 85, 127);</string>
      <bool>false</bool>
     </property>
    </widget>
-   <widget class="QLabel" name="lbl_nome_3">
-    <property name="geometry">
-     <rect>
-      <x>13</x>
-      <y>93</y>
-      <width>681</width>
-      <height>61</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Siemens AD CH Traditional</family>
-      <pointsize>48</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(255, 85, 127);
-background-color: rgba(255, 255, 255, 0);</string>
-    </property>
-    <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;CENTRAL JOGOS&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-    <property name="textFormat">
-     <enum>Qt::AutoText</enum>
-    </property>
-    <property name="alignment">
-     <set>Qt::AlignCenter</set>
-    </property>
-   </widget>
-   <zorder>lbl_nome_3</zorder>
-   <zorder>lbl_nome</zorder>
-   <zorder>lbl_nome_2</zorder>
-   <zorder>img_forca</zorder>
-   <zorder>lbl_titulo_forca</zorder>
-   <zorder>lbl_descricao_forca</zorder>
-   <zorder>btn_forca</zorder>
-   <zorder>lbl_descricao_velha</zorder>
-   <zorder>btn_velha</zorder>
-   <zorder>lbl_titulo_velha</zorder>
-   <zorder>img_velha</zorder>
   </widget>
  </widget>
  <resources/>

@@ -28,53 +28,29 @@
   <property name="styleSheet">
    <string notr="true">background-color: rgb(0, 0, 0);</string>
   </property>
-  <widget class="QLabel" name="lbl_nome_3">
-   <property name="geometry">
-    <rect>
-     <x>9</x>
-     <y>33</y>
-     <width>681</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <family>Siemens AD CH Traditional</family>
-     <pointsize>48</pointsize>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">color: rgb(255, 85, 127);
-background-color: rgba(255, 255, 255, 0);</string>
-   </property>
-   <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;JOGO DA FORCA&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-   </property>
-   <property name="textFormat">
-    <enum>Qt::AutoText</enum>
-   </property>
-   <property name="alignment">
-    <set>Qt::AlignCenter</set>
-   </property>
-  </widget>
   <widget class="QLabel" name="lbl_nome_2">
    <property name="geometry">
     <rect>
      <x>10</x>
      <y>30</y>
      <width>681</width>
-     <height>61</height>
+     <height>81</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>Siemens AD CH Traditional</family>
-     <pointsize>48</pointsize>
+     <family>Montserrat Black</family>
+     <pointsize>26</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
     </font>
    </property>
+   <property name="cursor">
+    <cursorShape>ArrowCursor</cursorShape>
+   </property>
    <property name="styleSheet">
-    <string notr="true">color: rgb(0, 255, 255);
-background-color: rgba(255, 255, 255, 0);</string>
+    <string notr="true">background-color: rgba(255, 255, 255, 0);
+color: rgb(85, 255, 255);</string>
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;JOGO DA FORCA&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
@@ -97,12 +73,17 @@ background-color: rgba(255, 255, 255, 0);</string>
    </property>
    <property name="font">
     <font>
-     <family>Siemens AD CH Simplified</family>
-     <pointsize>20</pointsize>
+     <family>Montserrat ExtraBold</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
     </font>
    </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 85, 127);</string>
+   </property>
    <property name="text">
-    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;DICA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ff557f;&quot;&gt;DICA&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
@@ -119,8 +100,10 @@ background-color: rgba(255, 255, 255, 0);</string>
    </property>
    <property name="font">
     <font>
-     <family>Siemens AD CH Simplified</family>
-     <pointsize>14</pointsize>
+     <family>Montserrat</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
@@ -139,14 +122,16 @@ color: white;</string>
     <rect>
      <x>150</x>
      <y>239</y>
-     <width>401</width>
+     <width>211</width>
      <height>251</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>Arial</family>
+     <family>Montserrat</family>
      <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
@@ -155,7 +140,7 @@ color: white;
 </string>
    </property>
    <property name="text">
-    <string>TextLabel</string>
+    <string/>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
@@ -172,7 +157,9 @@ color: white;
    </property>
    <property name="font">
     <font>
-     <pointsize>12</pointsize>
+     <family>Montserrat</family>
+     <pointsize>11</pointsize>
+     <italic>true</italic>
     </font>
    </property>
    <property name="styleSheet">
@@ -200,9 +187,14 @@ color: white;</string>
    </property>
    <property name="font">
     <font>
-     <family>Siemens AD CH Simplified</family>
+     <family>Montserrat</family>
      <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
     </font>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
    </property>
    <property name="styleSheet">
     <string notr="true">border: 1px solid rgb(255, 85, 127);
@@ -224,8 +216,10 @@ color: white;
    </property>
    <property name="font">
     <font>
-     <family>Siemens AD CH Simplified</family>
+     <family>Montserrat</family>
      <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
     </font>
    </property>
    <property name="styleSheet">
@@ -233,10 +227,64 @@ color: white;
 color: white;</string>
    </property>
    <property name="text">
-    <string>PALAVRA SECRETA</string>
+    <string/>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lbl_letras_erradas">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>266</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 1px solid rgb(255, 85, 127);
+color: white;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>240</y>
+     <width>171</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Montserrat</family>
+     <pointsize>12</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;
+background-color: rgba(255, 255, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>LETRAS ERRADAS</string>
    </property>
   </widget>
  </widget>
