@@ -173,7 +173,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>90</y>
+      <y>60</y>
       <width>681</width>
       <height>31</height>
      </rect>
@@ -205,7 +205,7 @@ background-color: rgba(255, 255, 255, 0);
     <property name="geometry">
      <rect>
       <x>15</x>
-      <y>20</y>
+      <y>0</y>
       <width>681</width>
       <height>81</height>
      </rect>
@@ -236,7 +236,7 @@ color: rgb(0, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>182</x>
-      <y>210</y>
+      <y>130</y>
       <width>131</width>
       <height>151</height>
      </rect>
@@ -255,7 +255,7 @@ color: rgb(0, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>342</x>
-      <y>220</y>
+      <y>140</y>
       <width>181</width>
       <height>31</height>
      </rect>
@@ -273,7 +273,7 @@ color: rgb(0, 255, 255);</string>
 background-color: rgb(255, 85, 127);</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;JOGO DA FORCA&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;FORCA&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -283,7 +283,7 @@ background-color: rgb(255, 85, 127);</string>
     <property name="geometry">
      <rect>
       <x>342</x>
-      <y>259</y>
+      <y>179</y>
       <width>221</width>
       <height>51</height>
      </rect>
@@ -308,7 +308,7 @@ background-color: rgb(255, 85, 127);</string>
     <property name="geometry">
      <rect>
       <x>340</x>
-      <y>320</y>
+      <y>240</y>
       <width>91</width>
       <height>30</height>
      </rect>
@@ -336,7 +336,7 @@ color: black;</string>
     <property name="geometry">
      <rect>
       <x>340</x>
-      <y>489</y>
+      <y>369</y>
       <width>181</width>
       <height>51</height>
      </rect>
@@ -361,7 +361,7 @@ color: black;</string>
     <property name="geometry">
      <rect>
       <x>338</x>
-      <y>550</y>
+      <y>430</y>
       <width>91</width>
       <height>30</height>
      </rect>
@@ -389,7 +389,7 @@ color: black;</string>
     <property name="geometry">
      <rect>
       <x>340</x>
-      <y>450</y>
+      <y>330</y>
       <width>181</width>
       <height>31</height>
      </rect>
@@ -407,7 +407,7 @@ color: black;</string>
 background-color: rgb(255, 85, 127);</string>
     </property>
     <property name="text">
-     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;JOGO DA VELHA&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;VELHA&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -417,7 +417,7 @@ background-color: rgb(255, 85, 127);</string>
     <property name="geometry">
      <rect>
       <x>180</x>
-      <y>440</y>
+      <y>320</y>
       <width>131</width>
       <height>151</height>
      </rect>
@@ -430,6 +430,106 @@ background-color: rgb(255, 85, 127);</string>
     </property>
     <property name="scaledContents">
      <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="img_ppt">
+    <property name="geometry">
+     <rect>
+      <x>182</x>
+      <y>510</y>
+      <width>131</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../img/jokenpo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_titulo_ppt">
+    <property name="geometry">
+     <rect>
+      <x>342</x>
+      <y>520</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(255, 85, 127);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;JOKEN PO&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbl_descricao_ppt">
+    <property name="geometry">
+     <rect>
+      <x>342</x>
+      <y>559</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Consolas</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Acerte o objeto certo&lt;br/&gt;e vença.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_ppt">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>620</y>
+      <width>91</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Montserrat</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 255, 255);
+color: black;</string>
+    </property>
+    <property name="text">
+     <string>JOGAR</string>
     </property>
    </widget>
   </widget>
