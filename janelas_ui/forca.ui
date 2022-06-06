@@ -135,10 +135,10 @@ color: white;</string>
    </property>
    <property name="font">
     <font>
-     <family>Montserrat</family>
-     <pointsize>16</pointsize>
-     <weight>75</weight>
-     <bold>true</bold>
+     <family>Arial</family>
+     <pointsize>10</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
     </font>
    </property>
    <property name="styleSheet">
@@ -147,7 +147,7 @@ color: white;
 </string>
    </property>
    <property name="text">
-    <string/>
+    <string>a</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>

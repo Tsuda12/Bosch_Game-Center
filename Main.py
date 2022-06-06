@@ -1,6 +1,7 @@
 #BIBLIOTECAS
 from PyQt5 import QtCore, QtGui, QtWidgets, uic
 from Forca import Forca
+#from Velha import Velha
 import janelas_py.MenuTela
 
 
@@ -12,10 +13,14 @@ class Central(janelas_py.MenuTela.Ui_MainWindow):
         self.setupUi(MainWindow)
         #--Botões
         self.btn_forca.clicked.connect(self.abrir_forca)
+        #self.btn_velha.clicked.connect(self.abrir_velha)
 
     #MÉTODOS
     def abrir_forca(self):
         self.forca = Forca()
+
+    #def abrir_velha(self):
+        #self.velha = Velha()
 
 
 #PROGRAMA

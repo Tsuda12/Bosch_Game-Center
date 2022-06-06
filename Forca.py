@@ -17,12 +17,13 @@ class Forca(janelas_py.ForcaTela.Ui_Form):
         self.dicas = dicas
         self.dica_sorteada = dica_sorteada
         self.chute_certo = chute_certo
-        self.chute_errado = chute_errado
+        self.chute_errado = []
         self.u_chute = u_chute
         #--Carrega a ui da forca
         self.janela = uic.loadUi("janelas_ui/forca.ui")
         #--Chama métodos
         self.resultado_sorteio = self.sortear_numero()
+        self.desenhar_forca()
         self.sortear_dica()
         self.sortear_palavra()
         self.ocultar_palavra()
@@ -35,6 +36,80 @@ class Forca(janelas_py.ForcaTela.Ui_Form):
 
 
     #MÉTODOS
+    def desenhar_forca(self):
+        self.desenho = ['''
+ 
+  +---+
+  |   |
+      |
+      |
+      |
+      |
+=========''','''
+ 
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========''','''
+ 
+  +---+
+  |   |
+  O   |
+  |   |
+      |
+      |
+=========''','''
+ 
+  +---+
+  |   |
+  O   |
+ /|   |
+      |
+      |
+=========''','''
+ 
+  +---+
+  |   |
+  O   |
+ /|\  |
+      |
+      |
+=========''','''
+ 
+  +---+
+  |   |
+  O   |
+ /|\  |
+ /    |
+      |
+=========''','''
+ 
+  +---+
+  |   |
+  O   |
+ /|\  |
+ / \  |
+      |
+=========''']
+
+        if len(self.chute_errado) == 0:
+            self.janela.label.setText(self.desenho[0])
+        elif len(self.chute_errado) == 1:
+            self.janela.label.setText(self.desenho[1])
+        elif len(self.chute_errado) == 2:
+            self.janela.label.setText(self.desenho[2])
+        elif len(self.chute_errado) == 3:
+            self.janela.label.setText(self.desenho[3])
+        elif len(self.chute_errado) == 4:
+            self.janela.label.setText(self.desenho[4])
+        elif len(self.chute_errado) == 5:
+            self.janela.label.setText(self.desenho[5])
+        elif len(self.chute_errado) == 6:
+            self.janela.label.setText(self.desenho[6])
+
     def sortear_palavra(self):
         #--Cria lista de palavras e sorteia uma palavra
         self.palavras = ['CARRO', 'MACACO', 'FIFA']
@@ -75,6 +150,7 @@ class Forca(janelas_py.ForcaTela.Ui_Form):
             self.janela.lne_chute.setText("")
             #--Printa os erros no label
             for letra in self.chute_errado:
+                self.desenhar_forca()
                 self.janela.lbl_letras_erradas.setText(f"{self.chute_errado}")
             self.perder()
 
@@ -83,14 +159,14 @@ class Forca(janelas_py.ForcaTela.Ui_Form):
         self.palavra_secreta_list = list(self.palavra_secreta)
         #--Variável de texto vazia
         palavra_secreta_str = ""
-        #Para cada *, se o chute corresponder a letra oculta, o * será igual ao chute
+        #--Para cada *, se o chute corresponder a letra oculta, o * será igual ao chute
         for pos in range(len(self.palavra_sorteada)):
             if self.u_chute == self.palavra_sorteada[pos]:
                 self.palavra_secreta_list[pos] = self.u_chute
-        #Para cada posição dentro da lista, concatena dentro da variável vazia
+        #--Para cada posição dentro da lista, concatena dentro da variável vazia
         for pos in range(len(self.palavra_secreta_list)):
             palavra_secreta_str += self.palavra_secreta_list[pos]
-        #O valor de uma variável passa para outra
+        #--O valor de uma variável passa para outra
         self.palavra_secreta = palavra_secreta_str
         self.imprimir_palavra_secreta()
 
@@ -103,7 +179,7 @@ class Forca(janelas_py.ForcaTela.Ui_Form):
         self.janela.lbl_palavra_secreta.setText(self.palavra_secreta_escrita)
 
     def perder(self):
-        if len(self.chute_errado) == 7:
+        if len(self.chute_errado) == 6:
             self.janela.perdeu.setHidden(False)
             sleep(2)
             self.janela.btn_enviar.setHidden(True)
