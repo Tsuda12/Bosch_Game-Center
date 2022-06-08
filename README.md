@@ -1,13 +1,12 @@
 # Bosch_Central-PyQT
-Central de Jogos (Em Desenvolvimento)
 
-Sobre o projeto:
+SOBRE O PROJETO:
 - Uma central que reune alguns jogos.
 
-Tecnologias Utilizadas:
+TECNOLOGIAS UTILIZADAS:
   - PyQT5 e QTDesigner (Interfaces).
   - PyCharm (IDE).
   - Linguagem (Python).
  
-Observações:
+OBSERVAÇÕES:
   - Não há tratamentos de erros.
