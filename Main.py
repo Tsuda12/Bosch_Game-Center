@@ -2,6 +2,7 @@
 from PyQt5 import QtCore, QtGui, QtWidgets, uic
 from Forca import Forca
 from Velha import Velha
+from Jokenpo import Jokenpo
 #from Velha import Velha
 import janelas_py.MenuTela
 
@@ -14,6 +15,7 @@ class Central(janelas_py.MenuTela.Ui_MainWindow):
         #--Botões
         self.btn_forca.clicked.connect(self.abrir_forca)
         self.btn_velha.clicked.connect(self.abrir_velha)
+        self.btn_ppt.clicked.connect(self.abrir_jokenpo)
 
     #MÉTODOS
     def abrir_forca(self):
@@ -21,6 +23,9 @@ class Central(janelas_py.MenuTela.Ui_MainWindow):
 
     def abrir_velha(self):
         self.velha = Velha()
+
+    def abrir_jokenpo(self):
+        self.jokenpo = Jokenpo()
 
 
 #PROGRAMA

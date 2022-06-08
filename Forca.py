@@ -31,6 +31,7 @@ class Forca(janelas_py.ForcaTela.Ui_Form):
         self.janela.btn_enviar.clicked.connect(self.chute)
         self.janela.perdeu.setHidden(True)
         self.janela.ganhou.setHidden(True)
+        self.janela.btn_enviar_2.clicked.connect(self.rejogar)
         #--Exibe a janela
         self.janela.show()
 
@@ -192,4 +193,6 @@ class Forca(janelas_py.ForcaTela.Ui_Form):
             self.janela.btn_enviar.setHidden(True)
             self.janela.lne_chute.setHidden(True)
 
-
+    def rejogar(self):
+        self.janela.close()
+        self.forca = Forca()
